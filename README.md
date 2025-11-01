@@ -49,7 +49,7 @@ After extracting the data from the MySQL database, Python was used to:
 **Key Insights from Visualizations**:
 
 - Total Sales by Product Category: Electronics is the top-selling category.
-- Monthly Sales Trends: December shows the highest total sales.
+- Monthly Sales Trends: May shows the highest total sales.
 - Customer Segments by Spending: Customers segmented into Low, Medium, and High spenders.
 - Sales by Gender and Age Group: Most sales come from customers aged 35-49 and +50, with similar contributions from males and females.
 
