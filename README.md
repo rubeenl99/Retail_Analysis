@@ -52,3 +52,5 @@ After extracting the data from the MySQL database, Python was used to:
 - `ranking_products.csv`
 - `monthly_sales.csv`
 - `age_gender_sales.csv`
+
+**Skills used**: Data extraction from SQL, Data cleaning and preparation, Merging datasets, Creating new features/columns, Customer segmentation, Grouping and aggregation (GROUP BY), Data visualization with matplotlib and seaborn, Exporting CSV files.
