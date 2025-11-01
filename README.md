@@ -16,7 +16,7 @@ To carry out this analysis, the following tools and technologies were used:
 
 ## SQL Analysis
 
-All SQL queries used for data preparation and analysis are in the file [`retail_queries.sql`](./retail_queries.sql).
+All SQL queries used for data preparation and analysis are in the file [`retail_data.sql`](./retail_data.sql).
 
 This file contains:
 
