@@ -29,6 +29,8 @@ This file contains:
 
 ## Python Analysis
 
+All Python scripts used for data extraction, cleaning, and analysis are included in the notebook [`retail_analysis.ipynb`](./retail_analysis.ipynb).
+
 After extracting the data from the MySQL database, Python was used to:
 
 - Merge the `sales` and `customers` tables.
