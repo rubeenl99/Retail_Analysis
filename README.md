@@ -16,7 +16,7 @@ To carry out this analysis, the following tools and technologies were used:
 
 ## SQL Analysis
 
-All SQL queries used for data preparation and analysis are in the file [`retail_data.sql`](./retail_data.sql).
+SQL file: [`retail_data.sql`](./retail_data.sql).
 
 This file contains:
 
@@ -29,7 +29,7 @@ This file contains:
 
 ## Python Analysis
 
-All Python scripts used for data extraction, cleaning, and analysis are included in the notebook [`retail_analysis.ipynb`](./retail_analysis.ipynb).
+All Python scripts used for data extraction, cleaning, and analysis are included in the notebook: [`retail_analysis.ipynb`](./retail_analysis.ipynb).
 
 After extracting the data from the MySQL database, Python was used to:
 
@@ -54,3 +54,22 @@ After extracting the data from the MySQL database, Python was used to:
 - `age_gender_sales.csv`
 
 **Skills used**: Data extraction from SQL, Data cleaning and preparation, Merging datasets, Creating new features/columns, Customer segmentation, Grouping and aggregation (GROUP BY), Data visualization with matplotlib and seaborn, Exporting CSV files.
+
+## Power BI Analysis
+
+Power BI file: [retail_analisis.pbix](./PowerBI/retail_analisis.pbix)
+
+The prepared datasets from Python were imported into Power BI to create interactive dashboards and visualize key performance indicators (KPIs).
+
+The dashboards include:
+
+- Best-selling product card.
+- Total sales card.
+- Top-Performing Products in the Best Month YTD (bar chart).
+- Sales per Product YTD (area chart) with interactive buttons to filter by product category (Beauty, Clothing, Electronics).
+- Monthly Sales by Product (card with sliders for month and product) showing sales and month-over-month change.
+- Sales by Gender and Age Group (separate charts for male and female, segmented by age groups).
+
+**Custom Measures**: Several DAX measures were created to calculate key performance indicators such as monthly growth, total sales, and product-specific metrics. These measures support the interactive visualizations and provide dynamic insights based on our selections.
+
+![Power BI Dashboard Screenshot](./images/dashboard_preview.png)
