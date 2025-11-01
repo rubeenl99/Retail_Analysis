@@ -83,8 +83,12 @@ The dashboards include:
 
 ## Practical Recommendations
 
-- **Focus marketing on Electronics**: As Electronics is the top-selling category, consider promotions or campaigns to increase sales further.  
-- **Seasonal campaigns**: Since December shows peak sales, plan special offers or inventory adjustments for high-demand months.  
-- **Targeted customer strategies**: For customers aged 35-49 and 50+, consider loyalty programs or personalized recommendations, as they contribute most to sales.  
-- **Segment-based actions**: Use the Low, Medium, High customer segments to design tailored promotions: e.g., incentivize Low spenders to increase purchases, reward High spenders to retain loyalty.  
-- **Gender-based insights**: While sales are fairly balanced, campaigns could still target products more popular within a gender-age segment.  
+**Promotions for Low-Sales Months**: Focus marketing campaigns, discounts, or special offers in months with lower total sales (e.g., **March, April, September**) to stimulate demand and balance revenue throughout the year.
+
+2. **Inventory Optimization**: Ensure sufficient stock of top-selling products, especially during high-demand months like **May and October**, to avoid stockouts and maximize sales.
+
+3. **Customer Segmentation Targeting**: Design targeted promotions for different customer segments (Low, Medium, High spenders) to increase engagement and loyalty.
+
+4. **Product Category Focus**: Since **Electronics** is the top-selling category, consider expanding product variety or bundling offers in this category to drive additional revenue.
+
+5. **Age & Gender Insights**: Tailor marketing messages based on customer demographics. Customers aged **35-49 and 50+** contribute significantly to sales, so campaigns can be customized to their preferences.
