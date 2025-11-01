@@ -72,4 +72,4 @@ The dashboards include:
 
 **Custom Measures**: Several DAX measures were created to calculate key performance indicators such as monthly growth, total sales, and product-specific metrics. These measures support the interactive visualizations and provide dynamic insights based on our selections.
 
-![Power BI Dashboard Screenshot](./images/dashboard_preview.png)
+![Power BI Dashboard Screenshot](dashboard_preview.png)
