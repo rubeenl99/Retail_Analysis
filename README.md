@@ -26,3 +26,27 @@ This file contains:
 - **Top Customers Analysis**: identifies the top 5 customers per product category using CTEs and window functions.
 
 **Skills used**: Joins, CTEs, Aggregate Functions, GROUP BY, ORDER BY, Window Functions, CASE Statements, Creating Tables, Foreign Keys, Date Functions.
+
+## Python Analysis
+
+After extracting the data from the MySQL database, Python was used to:
+
+- Merge the `sales` and `customers` tables.
+- Create additional columns such as `Month` and `AgeGroup`.
+- Segment customers into Low, Medium, and High spending categories.
+- Prepare datasets for visualizations.
+
+**Key Insights from Visualizations**:
+
+- **Total Sales by Product Category**: Electronics is the top-selling category.
+- **Monthly Sales Trends**: December shows the highest total sales.
+- **Customer Segments by Spending**: Customers segmented into Low, Medium, and High spenders.
+- **Sales by Gender and Age Group**: Most sales come from customers aged **35-49** and **+50**, with similar contributions from males and females.  
+
+**Exported Data for Power BI**:
+
+- `customer_segment.csv`
+- `sales_by_month_category.csv`
+- `ranking_products.csv`
+- `monthly_sales.csv`
+- `age_gender_sales.csv`
