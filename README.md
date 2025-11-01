@@ -24,7 +24,7 @@ To carry out this analysis, the following tools and technologies were used:
 
 ## SQL Analysis
 
-**SQL file**: `retail_data.sql`
+**SQL file**: [retail_data.sql](./retail_data.sql)
 
 This file contains:
 
@@ -37,7 +37,7 @@ This file contains:
 
 ## Python Analysis
 
-All Python scripts used for data extraction, cleaning, and analysis are included in the notebook: `retail_analysis.ipynb`.
+All Python scripts used for data extraction, cleaning, and analysis are included in the notebook: [retail_analysis.ipynb](./retail_analysis.ipynb).
 
 After extracting the data from the MySQL database, Python was used to:
 
@@ -65,7 +65,7 @@ After extracting the data from the MySQL database, Python was used to:
 
 ## Power BI Analysis
 
-**Power BI file**: `retail_analisis.pbix`
+**Power BI file**: [retail_analisis.pbix](./retail_analisis.pbix)
 
 The prepared datasets from Python were imported into Power BI to create interactive dashboards and visualize key performance indicators (KPIs).
 
