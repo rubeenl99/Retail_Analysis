@@ -57,7 +57,7 @@ After extracting the data from the MySQL database, Python was used to:
 
 ## Power BI Analysis
 
-Power BI file: [retail_analisis.pbix](./PowerBI/retail_analisis.pbix)
+Power BI file: [`retail_analisis.pbix`](./retail_analisis.pbix)
 
 The prepared datasets from Python were imported into Power BI to create interactive dashboards and visualize key performance indicators (KPIs).
 
