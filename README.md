@@ -1,22 +1,30 @@
 # Retail_Analysis
+
+## Table of Contents
+- [Introduction](#introduction)
+- [SQL Analysis](#sql-analysis)
+- [Python Analysis](#python-analysis)
+- [Power BI Analysis](#power-bi-analysis)
+- [Practical Recommendations](#practical-recommendations)
+
 ## Introduction
 
 This project analyzes sales and customer data from a fictional retail company. The dataset consists of two main tables:
 
-- **Sales**: contains transaction data including `Transaction ID`, `Date`, `Customer ID`, `Product Category`, `Quantity`, `Price per Unit`, and `Total Amount`.
-- **Customers**: contains demographic information of customers such as `Customer ID`, `Gender`, and `Age`.
+- **Sales**: contains transaction data including Transaction ID, Date, Customer ID, Product Category, Quantity, Price per Unit, and Total Amount.
+- **Customers**: contains demographic information of customers such as Customer ID, Gender, and Age.
 
 The main goal of this project is to explore sales performance by product and over time. The analysis identifies top-performing products and highlights trends in sales. It also provides insights into customer behavior based on gender and age groups.
 
 To carry out this analysis, the following tools and technologies were used:
 
 - **SQL**: for data extraction, aggregation, and manipulation.
-- **Python** (pandas, SQLAlchemy): for advanced data preparation, customer segmentation, and generating datasets for visualization.
+- **Python (pandas, SQLAlchemy)**: for advanced data preparation, customer segmentation, and generating datasets for visualization.
 - **Power BI**: to create interactive dashboards and visualize key performance indicators (KPIs).
 
 ## SQL Analysis
 
-SQL file: [`retail_data.sql`](./retail_data.sql).
+**SQL file**: `retail_data.sql`
 
 This file contains:
 
@@ -29,21 +37,21 @@ This file contains:
 
 ## Python Analysis
 
-All Python scripts used for data extraction, cleaning, and analysis are included in the notebook: [`retail_analysis.ipynb`](./retail_analysis.ipynb).
+All Python scripts used for data extraction, cleaning, and analysis are included in the notebook: `retail_analysis.ipynb`.
 
 After extracting the data from the MySQL database, Python was used to:
 
-- Merge the `sales` and `customers` tables.
-- Create additional columns such as `Month` and `AgeGroup`.
+- Merge the sales and customers tables.
+- Create additional columns such as Month and AgeGroup.
 - Segment customers into Low, Medium, and High spending categories.
 - Prepare datasets for visualizations.
 
 **Key Insights from Visualizations**:
 
-- **Total Sales by Product Category**: Electronics is the top-selling category.
-- **Monthly Sales Trends**: December shows the highest total sales.
-- **Customer Segments by Spending**: Customers segmented into Low, Medium, and High spenders.
-- **Sales by Gender and Age Group**: Most sales come from customers aged **35-49** and **+50**, with similar contributions from males and females.  
+- Total Sales by Product Category: Electronics is the top-selling category.
+- Monthly Sales Trends: December shows the highest total sales.
+- Customer Segments by Spending: Customers segmented into Low, Medium, and High spenders.
+- Sales by Gender and Age Group: Most sales come from customers aged 35-49 and +50, with similar contributions from males and females.
 
 **Exported Data for Power BI**:
 
@@ -57,7 +65,7 @@ After extracting the data from the MySQL database, Python was used to:
 
 ## Power BI Analysis
 
-Power BI file: [`retail_analisis.pbix`](./retail_analisis.pbix)
+**Power BI file**: `retail_analisis.pbix`
 
 The prepared datasets from Python were imported into Power BI to create interactive dashboards and visualize key performance indicators (KPIs).
 
@@ -69,7 +77,14 @@ The dashboards include:
 - Sales per Product YTD (area chart) with interactive buttons to filter by product category (Beauty, Clothing, Electronics).
 - Monthly Sales by Product (card with sliders for month and product) showing sales and month-over-month change.
 - Sales by Gender and Age Group (separate charts for male and female, segmented by age groups).
+- **Custom Measures**: Several DAX measures were created to calculate key performance indicators such as monthly growth, total sales, and product-specific metrics. These measures support the interactive visualizations and provide dynamic insights based on our selections.
 
-**Custom Measures**: Several DAX measures were created to calculate key performance indicators such as monthly growth, total sales, and product-specific metrics. These measures support the interactive visualizations and provide dynamic insights based on our selections.
+![Dashboard Preview](dashboard_preview.png)
 
-![Power BI Dashboard Screenshot](dashboard_preview.png)
+## Practical Recommendations
+
+- **Focus marketing on Electronics**: As Electronics is the top-selling category, consider promotions or campaigns to increase sales further.  
+- **Seasonal campaigns**: Since December shows peak sales, plan special offers or inventory adjustments for high-demand months.  
+- **Targeted customer strategies**: For customers aged 35-49 and 50+, consider loyalty programs or personalized recommendations, as they contribute most to sales.  
+- **Segment-based actions**: Use the Low, Medium, High customer segments to design tailored promotions: e.g., incentivize Low spenders to increase purchases, reward High spenders to retain loyalty.  
+- **Gender-based insights**: While sales are fairly balanced, campaigns could still target products more popular within a gender-age segment.  
