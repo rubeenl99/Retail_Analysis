@@ -83,12 +83,12 @@ The dashboards include:
 
 ## Practical Recommendations
 
-**Promotions for Low-Sales Months**: Focus marketing campaigns, discounts, or special offers in months with lower total sales (e.g., **March, April, September**) to stimulate demand and balance revenue throughout the year.
+- **Promotions for Low-Sales Months**: Focus marketing campaigns, discounts, or special offers in months with lower total sales (e.g., **March, April, September**) to stimulate demand and balance revenue throughout the year.
 
-2. **Inventory Optimization**: Ensure sufficient stock of top-selling products, especially during high-demand months like **May and October**, to avoid stockouts and maximize sales.
+- **Inventory Optimization**: Ensure sufficient stock of top-selling products, especially during high-demand months like **May and October**, to avoid stockouts and maximize sales.
 
-3. **Customer Segmentation Targeting**: Design targeted promotions for different customer segments (Low, Medium, High spenders) to increase engagement and loyalty.
+- **Customer Segmentation Targeting**: Design targeted promotions for different customer segments (Low, Medium, High spenders) to increase engagement and loyalty.
 
-4. **Product Category Focus**: Since **Electronics** is the top-selling category, consider expanding product variety or bundling offers in this category to drive additional revenue.
+- **Product Category Focus**: Since **Electronics** is the top-selling category, consider expanding product variety or bundling offers in this category to drive additional revenue.
 
-5. **Age & Gender Insights**: Tailor marketing messages based on customer demographics. Customers aged **35-49 and 50+** contribute significantly to sales, so campaigns can be customized to their preferences.
+- **Age & Gender Insights**: Tailor marketing messages based on customer demographics. Customers aged **35-49 and 50+** contribute significantly to sales, so campaigns can be customized to their preferences.
