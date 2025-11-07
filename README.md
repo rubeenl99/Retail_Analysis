@@ -16,10 +16,10 @@ This project analyzes sales and customer data from a fictional retail company. T
 
 The main goal of this project is to explore sales performance by product and over time. The analysis identifies top-performing products and highlights trends in sales. It also provides insights into customer behavior based on gender and age groups.
 
-To carry out this analysis, the following tools and technologies were used:
+To carry out this analysis, the following tools were used:
 
 - **SQL**: for data extraction, aggregation, and manipulation.
-- **Python (pandas, SQLAlchemy)**: for advanced data preparation, customer segmentation, and generating datasets for visualization.
+- **Python (pandas, SQLAlchemy, matplotlib, seaborn)**: for advanced data preparation, customer segmentation, and generating datasets for visualization.
 - **Power BI**: to create interactive dashboards and visualize key performance indicators (KPIs).
 
 ## SQL Analysis
@@ -83,7 +83,7 @@ The dashboards include:
 
 ## Practical Recommendations
 
-- **Promotions for Low-Sales Months**: Focus marketing campaigns, discounts, or special offers in months with lower total sales (e.g., **March, April, September**) to stimulate demand and balance revenue throughout the year.
+- **Promotions for Low-Sales Months**: Focus marketing campaigns, discounts, or special offers in months with lower total sales (**March, April, September**) to stimulate demand and balance revenue throughout the year.
 
 - **Inventory Optimization**: Ensure sufficient stock of top-selling products, especially during high-demand months like **May and October**, to avoid stockouts and maximize sales.
 
